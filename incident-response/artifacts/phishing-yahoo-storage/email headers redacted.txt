@@ -1,0 +1,37 @@
+Received: from 127.0.0.1
+ by [REDACTED_MAIL_SERVER] with HTTP;
+ Fri, 23 Jan 2026 18:32:50 +0000
+
+Return-Path: <[REDACTED_ALIAS]@[REDACTED_DOMAIN]>
+
+X-Originating-IP: [REDACTED_PUBLIC_IP]
+
+Received-SPF: softfail
+ (domain of transitioning [REDACTED_DOMAIN] does not designate [REDACTED_PUBLIC_IP] as permitted sender)
+
+Authentication-Results: mta.yahoo.com;
+ dkim=pass header.i=@[REDACTED_DOMAIN] header.s=h1;
+ spf=softfail smtp.mailfrom=[REDACTED_DOMAIN];
+ dmarc=pass (p=REJECT) header.from=[REDACTED_DOMAIN]
+
+X-Apparently-To: [REDACTED_EMAIL]; Fri, 23 Jan 2026 18:32:50 +0000
+
+Received: from [REDACTED_PUBLIC_IP] (EHLO [REDACTED_DOMAIN])
+ by [REDACTED_INTERNAL_IP] with SMTP;
+ Fri, 23 Jan 2026 18:32:50 +0000
+
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+ d=[REDACTED_DOMAIN]; s=h1;
+ h=MIME-Version:Message-Id:From:Subject:Reply-To:Date:To:Content-Type;
+ bh=[REDACTED_HASH];
+ b=[REDACTED_SIGNATURE]
+
+MIME-Version: 1.0
+Message-Id: <[REDACTED_MESSAGE_ID]>
+From: "Email Protection" <[REDACTED_ALIAS]@[REDACTED_DOMAIN]>
+Subject: PAYMENT FAILED: Your device is at risk
+Reply-To: <[REDACTED_ALIAS]@[REDACTED_DOMAIN]>
+Date: Fri, 23 Jan 2026 18:07:05 +0000
+To: [REDACTED_EMAIL]
+Content-Type: multipart/alternative;
+ boundary="[REDACTED_BOUNDARY]"
