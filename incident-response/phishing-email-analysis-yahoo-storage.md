@@ -75,4 +75,4 @@ This email was classified as **malicious phishing** based on:
 ---
 
 ## Evidence & Artifacts
-Screenshots and artifacts supporting this analysis are stored in the following directory:
+Screenshots and artifacts supporting this analysis are stored in the following directory:[artifacts/phishing-yahoo-storage]
