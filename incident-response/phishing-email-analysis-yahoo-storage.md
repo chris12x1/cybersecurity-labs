@@ -49,5 +49,6 @@ indicators of compromise (IOCs) in reports and public repositories.
 
 ## Evidence
 Artifacts for this incident are stored in:
-incident-response/artifacts/phishing-yahoo-storage/
+[Phishing Yahoo Artifacts](incident-response/artifacts/phishing-yahoo-storage/)
+
 
