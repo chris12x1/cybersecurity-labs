@@ -36,8 +36,18 @@ This email was classified as **malicious phishing** based on multiple authentica
 - Educate users on phishing indicators
 - Monitor for similar campaigns
 
+## Data Handling & Redaction
+All headers, IP addresses, message IDs, and recipient identifiers have been
+partially redacted to protect user privacy while preserving forensic value.
+
+## Indicator Sanitization (Defanging)
+All URLs and domains in this report have been intentionally defanged
+(e.g., `example[.]com`) to prevent accidental clicks or execution.
+
+This is a standard incident response practice used to safely share
+indicators of compromise (IOCs) in reports and public repositories.
+
 ## Evidence
 Artifacts for this incident are stored in:
 incident-response/artifacts/phishing-yahoo-storage/
 
-All sensitive information has been redacted.
