@@ -1,7 +1,7 @@
 # Phishing Triage Automation Artifacts – AI Pipeline
 
 This directory contains sanitized and redacted artifacts collected during the automated phishing triage investigation documented in:
-**[phishing-triage-ai/README.md](../README.md)**
+**[phishing-triage-ai/README.md](https://github.com/chris12x1/cybersecurity-projects/blob/main/secops-automation/phishing-triage-ai.md)**
 
 All indicators have been defanged and sensitive details (such as API keys and personal metadata) have been redacted to preserve forensic and educational value while preventing accidental execution or exposure.
 
