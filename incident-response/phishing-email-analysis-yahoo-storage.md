@@ -1,5 +1,8 @@
 # Phishing Email Analysis – Yahoo Storage Scam
 
+> [!TIP]
+> **Project Evolution:** I have successfully automated the logic used in this manual investigation. View the **[AI-Powered Phishing Triage Automation](https://github.com/chris12x1/cybersecurity-projects/blob/main/secops-automation/phishing-triage-ai.md)** to see how this workflow scales.
+
 ## Overview
 This mini-project documents the investigation of a phishing email impersonating Yahoo that claims the user’s cloud storage subscription has expired. The analysis focuses on email authentication, sender legitimacy, URL behavior, and social engineering techniques commonly observed in credential-harvesting attacks.
 
