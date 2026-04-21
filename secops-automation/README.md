@@ -4,9 +4,9 @@ This folder documents hands-on security orchestration and automation projects fo
 
 ## Scenarios Included
 
-- AI-Powered Phishing Triage:** Automated ingestion and analysis of suspicious emails.
-- Automated Logging & Audit Trails:** Connecting webhooks to centralized data stores.
-- API & Workflow Orchestration:** Building logic-based security pipelines.
+- AI-Powered Phishing Triage: Automated ingestion and analysis of suspicious emails.
+- Automated Logging & Audit Trails: Connecting webhooks to centralized data stores.
+- API & Workflow Orchestration: Building logic-based security pipelines.
 
 ## Frameworks & Concepts
 
