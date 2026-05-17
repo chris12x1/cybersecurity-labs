@@ -16,4 +16,5 @@ The script executes a multi-stage cleanup flow:
 ### 💻 Usage
 Designed for instant deployment via terminal:
 ```bash
-python3 -c "$(curl -fsSL https://raw.githubusercontent.com/chris12x1/cybersecurity-projects/main/secops-automation/vm-infrastructure-utils/chrisVMcleanup.py)"
+wget https://raw.githubusercontent.com/chris12x1/cybersecurity-projects/main/secops-automation/vm-infrastructure-utils/chrisVMcleanup.py
+python3 chrisVMcleanup.py
