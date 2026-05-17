@@ -14,7 +14,7 @@ The script executes a multi-stage cleanup flow:
 5. **Cache Reset:** Clears user-level caches to ensure a clean state for VS Code extensions.
 
 ### 💻 Usage
-Designed for instant deployment via terminal:
+To reclaim disk space on your VM, run the following commands in your terminal:
 ```bash
 wget https://raw.githubusercontent.com/chris12x1/cybersecurity-projects/main/secops-automation/vm-infrastructure-utils/chrisVMcleanup.py
 python3 chrisVMcleanup.py
