@@ -1,4 +1,4 @@
-# 🧹 Titan VM Universal Cleanup Utility
+# 🧹 Chris's VM Universal Cleanup Utility
 
 ### 🔍 Overview
 A specialized Python automation script developed to resolve the **"No space left on device" (StorageFull)** error frequently encountered in Ubuntu-based cybersecurity lab environments. 
@@ -16,4 +16,4 @@ The script executes a multi-stage cleanup flow:
 ### 💻 Usage
 Designed for instant deployment via terminal:
 ```bash
-curl -sL [https://raw.githubusercontent.com/chris12x1/cybersecurity-projects/main/secops-automation/vm-infrastructure-utils/titan_cleanup.py](https://raw.githubusercontent.com/chris12x1/cybersecurity-projects/main/secops-automation/vm-infrastructure-utils/titan_cleanup.py) | python3
+curl -sL https://raw.githubusercontent.com/chris12x1/cybersecurity-projects/main/secops-automation/vm-infrastructure-utils/titan_cleanup.py | python3
