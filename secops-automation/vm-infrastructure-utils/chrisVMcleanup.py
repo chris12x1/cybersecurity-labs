@@ -35,6 +35,7 @@ def main():
     commands = [
         "sudo apt-get clean",
         "sudo apt-get autoremove -y",
+        "sudo docker stop $(sudo docker ps -q)",
         "sudo docker compose down",
         "sudo docker system prune -a -f",
         "sudo docker image prune -a -f",
